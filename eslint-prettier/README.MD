@@ -27,7 +27,7 @@ Para começar, certifique-se de ter o [NodeJS](https://nodejs.org/en/) no seu si
 Faça o download do projeto com o comando:
 
 ```sh
-yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/eslint-prettier my-app
 ```
 
 ### Instalação
@@ -53,4 +53,3 @@ yarn start
 ```sh
 yarn lint
 ```
-
