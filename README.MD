@@ -4,10 +4,6 @@ Boilerplate com recursos já previamente implementados para aumentar a produtivi
 
 <br>
 
-### Download
-
-#
-
 Faça o download do boilerplate com os pacotes:
 
 [Eslint](https://eslint.org/)
