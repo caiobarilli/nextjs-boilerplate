@@ -32,3 +32,18 @@ com o comando:
 ```sh
 yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/jest-styled-components frontend
 ```
+
+<br>
+
+Faça o download do boilerplate com os pacotes:
+
+[Eslint](https://eslint.org/)
+| [Prettier](https://prettier.io/)
+| [Husky](https://github.com/typicode/husky)
+| [Tailwindcss](https://tailwindcss.com/)
+
+com o comando:
+
+```sh
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/tailwind frontend
+```
