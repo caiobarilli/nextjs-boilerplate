@@ -4,7 +4,7 @@ Boilerplate com recursos já previamente implementados para aumentar a produtivi
 
 <br>
 
-Faça o download do boilerplate com os pacotes:
+Faça o download do boilerplate com os pacotes::
 
 [Eslint](https://eslint.org/)
 | [Prettier](https://prettier.io/)
