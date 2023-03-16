@@ -1,13 +1,33 @@
+import Slider, { SlideProps } from 'components/Slider'
+import { Container } from 'components/Container'
+import Base from 'templates/Base'
 import * as S from './styles'
 
-import Base from 'templates/Base'
+const slides: SlideProps[] = [
+  {
+    id: 1,
+    imageUrl: 'https://picsum.photos/1080'
+  },
+  {
+    id: 2,
+    imageUrl: 'https://picsum.photos/1080'
+  },
+  {
+    id: 3,
+    imageUrl: 'https://picsum.photos/1080'
+  }
+]
 
-const Home = () => (
-  <Base>
-    <S.Wrapper>
-      <h1>Home</h1>
-    </S.Wrapper>
-  </Base>
-)
+const Home = () => {
+  return (
+    <Base>
+      <S.Wrapper>
+        <Container>
+          <Slider slides={slides} />
+        </Container>
+      </S.Wrapper>
+    </Base>
+  )
+}
 
 export default Home

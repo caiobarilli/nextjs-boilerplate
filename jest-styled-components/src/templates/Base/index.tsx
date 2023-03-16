@@ -1,7 +1,5 @@
-import Menu from 'components/Menu'
+import Header from 'components/Header'
 import Footer from 'components/Footer'
-
-import { Container } from 'components/Container'
 
 import * as S from './styles'
 
@@ -12,15 +10,11 @@ export type BaseProps = {
 const Base = ({ children }: BaseProps) => {
   return (
     <S.Wrapper>
-      <Container larger>
-        <Menu />
-      </Container>
+      <Header />
+
       <S.Content>{children}</S.Content>
-      <S.SectionFooter>
-        <Container>
-          <Footer />
-        </Container>
-      </S.SectionFooter>
+
+      <Footer />
     </S.Wrapper>
   )
 }

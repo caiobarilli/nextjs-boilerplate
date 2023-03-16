@@ -1,9 +1,9 @@
 import { renderWithTheme } from 'utils/tests/helpers'
 
-import Footer from '.'
+import SocialMenu from '.'
 
-describe('<Footer />', () => {
+describe('<SocialMenu />', () => {
   it('should render the heading', () => {
-    renderWithTheme(<Footer />)
+    renderWithTheme(<SocialMenu />)
   })
 })

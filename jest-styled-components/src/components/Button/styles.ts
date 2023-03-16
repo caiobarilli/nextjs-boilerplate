@@ -1,5 +1,4 @@
-import styled, { css, DefaultTheme } from 'styled-components'
-import media from 'styled-media-query'
+import styled, { css, FrontendTheme } from 'styled-components'
 
 import { ButtonProps } from '.'
 
@@ -9,26 +8,22 @@ export type WrapperProps = { hasIcon: boolean } & Pick<
 >
 
 const WrapperModifiers = {
-  small: (theme: DefaultTheme) => css`
+  small: (theme: FrontendTheme) => css`
     height: 3rem;
     font-size: ${theme.font.sizes.xsmall};
   `,
-  medium: (theme: DefaultTheme) => css`
+
+  medium: (theme: FrontendTheme) => css`
     height: 4rem;
     font-size: ${theme.font.sizes.medium};
-    padding: ${theme.spacings.xxsmall} ${theme.spacings.medium};
   `,
-  large: (theme: DefaultTheme) => css`
+
+  large: (theme: FrontendTheme) => css`
     height: 4.35rem;
     font-size: ${theme.font.sizes.medium};
-    padding: 0 ${theme.spacings.medium};
-
-    ${media.greaterThan('medium')`
-    height: 5rem;
-      padding: ${theme.spacings.xxsmall} ${theme.spacings.xlarge};
-    `}
   `,
-  withIcons: (theme: DefaultTheme) => css`
+
+  withIcons: (theme: FrontendTheme) => css`
     svg {
       width: 1.5rem;
 
@@ -37,17 +32,20 @@ const WrapperModifiers = {
       }
     }
   `,
+
   fullWidth: () => css`
     width: 100%;
   `,
-  minimal: (theme: DefaultTheme) => css`
+
+  minimal: (theme: FrontendTheme) => css`
     background: transparent;
-    color: ${theme.colors.primary};
+    color: ${theme.colors.defaultText};
 
     &:hover {
       background: transparent;
     }
   `,
+
   disabled: () => css`
     &:disabled {
       cursor: not-allowed;
@@ -67,30 +65,6 @@ export const Wrapper = styled.button<WrapperProps>`
 
     font-family: ${theme.font.family};
     border-radius: ${theme.border.radius};
-    padding: ${theme.spacings.xxsmall};
-
-    color: ${theme.colors.white};
-    background: linear-gradient(
-      178.59deg,
-      #ff5f5f -14.51%,
-      #f062c0 102.86%,
-      #f23131 102.86%
-    );
-
-    &:focus {
-      box-shadow: 0 0 0 3px ${theme.colors.secondary};
-    }
-
-    &:hover {
-      background: linear-gradient(180deg, #e35565 0%, #d958a6 100%),
-        linear-gradient(
-          178.59deg,
-          #ff5f5f -14.51%,
-          #f062c0 102.86%,
-          #f23131 102.86%
-        );
-      border-radius: 4px;
-    }
 
     ${!!size && WrapperModifiers[size](theme)}
     ${!!fullWidth && WrapperModifiers.fullWidth()}

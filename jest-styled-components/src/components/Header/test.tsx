@@ -1,9 +1,9 @@
 import { renderWithTheme } from 'utils/tests/helpers'
 
-import Footer from '.'
+import Header from '.'
 
-describe('<Footer />', () => {
+describe('<Header />', () => {
   it('should render the heading', () => {
-    renderWithTheme(<Footer />)
+    renderWithTheme(<Header />)
   })
 })

@@ -26,10 +26,10 @@ export default {
   colors: {
     white: '#F4F4F4',
     black: '#444251',
-    defaultText: '#444251',
-    defaultBackground: '#F4F4F4',
-    colorVariation1: '#E0E0E0',
-    backgroundVariation1: '#CDD5DC'
+    defaultText: '#E4E3E5',
+    defaultBackground: '#444251',
+    colorVariation1: '#CBCBCF',
+    backgroundVariation1: '#8D89A3'
   },
   spacings: {
     xxsmall: '0.8rem',
