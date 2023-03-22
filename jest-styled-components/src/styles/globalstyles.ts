@@ -2,12 +2,11 @@ import {
   createGlobalStyle,
   css,
   DefaultTheme,
-  FrontendTheme,
   GlobalStyleComponent
 } from 'styled-components'
 
 export type GlobalStylesProps = {
-  theme: FrontendTheme
+  theme: DefaultTheme
 }
 
 const GlobalStyles: GlobalStyleComponent<
