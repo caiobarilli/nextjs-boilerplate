@@ -1,8 +1,11 @@
 /* eslint-disable @typescript-eslint/no-empty-interface */
 import 'styled-components'
 
+type Theme = typeof theme
+
 declare module 'styled-components' {
   export interface DefaultTheme extends FrontendTheme {}
+  
   export interface FrontendTheme {
     grid: {
       container: string
