@@ -2,7 +2,7 @@
 import 'styled-components'
 
 declare module 'styled-components' {
-  export interface DefaultTheme {}
+  export interface DefaultTheme extends FrontendTheme {}
   export interface FrontendTheme {
     grid: {
       container: string
