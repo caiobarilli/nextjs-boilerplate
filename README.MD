@@ -13,7 +13,7 @@ Faça o download do boilerplate com os pacotes:
 com o comando:
 
 ```sh
-yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/eslint-prettier frontend
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/pages_router/eslint-prettier frontend
 ```
 
 <br>
@@ -30,7 +30,7 @@ Faça o download do boilerplate com os pacotes:
 com o comando:
 
 ```sh
-yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/jest-styled-components frontend
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/pages_router/jest-styled-components frontend
 ```
 
 <br>
@@ -45,5 +45,5 @@ Faça o download do boilerplate com os pacotes:
 com o comando:
 
 ```sh
-yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/tailwind frontend
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/pages_router/tailwind frontend
 ```
