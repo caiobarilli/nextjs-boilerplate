@@ -4,6 +4,23 @@ Boilerplate com recursos já previamente implementados para aumentar a produtivi
 
 <br>
 
+## App Router
+
+Faça o download do boilerplate com os pacotes:
+
+[Eslint](https://eslint.org/)
+| [Prettier](https://prettier.io/)
+| [Husky](https://github.com/typicode/husky)
+| [Jest](https://jestjs.io/)
+
+com o comando:
+
+```sh
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/eslint-prettier-jest frontend
+```
+
+## Pages Router
+
 Faça o download do boilerplate com os pacotes:
 
 [Eslint](https://eslint.org/)
