@@ -11,12 +11,26 @@ Faça o download do boilerplate com os pacotes:
 [Eslint](https://eslint.org/)
 | [Prettier](https://prettier.io/)
 | [Husky](https://github.com/typicode/husky)
+
+com o comando:
+
+```sh
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/eslint-prettier frontend
+```
+
+<br>
+
+Faça o download do boilerplate com os pacotes:
+
+[Eslint](https://eslint.org/)
+| [Prettier](https://prettier.io/)
+| [Husky](https://github.com/typicode/husky)
 | [Jest](https://jestjs.io/)
 
 com o comando:
 
 ```sh
-yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/eslint-prettier-jest frontend
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/jest-eslint-prettier frontend
 ```
 
 ## Pages Router
