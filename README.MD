@@ -33,6 +33,23 @@ com o comando:
 yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/jest-eslint-prettier frontend
 ```
 
+<br>
+
+Faça o download do boilerplate com os pacotes:
+
+[Eslint](https://eslint.org/)
+| [Prettier](https://prettier.io/)
+| [Husky](https://github.com/typicode/husky)
+| [Jest](https://jestjs.io/)
+| [Styled Components](https://styled-components.com/)
+| [PlopJS](https://plopjs.com/)
+
+com o comando:
+
+```sh
+yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/jest-styled-components frontend
+```
+
 ## Pages Router
 
 Faça o download do boilerplate com os pacotes:
