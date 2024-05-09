@@ -67,6 +67,9 @@ com o comando:
 yarn create next-app -e https://github.com/caiobarilli/nextjs-boilerplate/tree/main/app_router/jest-tailwind frontend
 ```
 
+<br>
+<br>
+
 ## Pages Router
 
 Faça o download do boilerplate com os pacotes:
